@@ -1,0 +1,36 @@
+# dependencies
+node_modules
+.pnpm-store
+
+# build outputs
+.next
+dist
+build
+
+# expo
+.expo
+*.orig.*
+web-build
+
+# turbo
+.turbo
+
+# env
+.env
+.env.local
+.env*.local
+
+# native
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# misc
+.DS_Store
+*.pem
+.claude
+
+# 전략/인수인계 문서 — 로컬에만 보관, 공개 금지 (saycore·면접 전략 포함)
+*.md
